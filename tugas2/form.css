@@ -1,26 +1,26 @@
 body {
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
-    margin: 40px;
+    margin: 40 px;
 }
 
 form {
     background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    width: 450px;
+    padding: 20 px;
+    border-radius: 8 px;
+    width: 450 px;
 }
 
 fieldset {
-    margin-bottom: 15px;
-    padding: 15px;
-    border: 1px solid #ccc;
+    margin-bottom: 15 px;
+    padding: 15 px;
+    border: 1 px solid #ccc;
 }
 
 legend {
     font-weight: bold;
     color: #333333;
-    padding: 0 5px;
+    padding: 0 5 px;
 }
 
 table {
@@ -28,21 +28,26 @@ table {
 }
 
 td {
-    padding: 5px 0;
+    padding: 5 px 0;
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+select,
+textarea {
     width: 100%;
-    padding: 5px;
+    padding: 6 px;
     box-sizing: border-box;
+    border: 1 px solid #ccc;
+    border-radius: 4 px;
+    font-family: Arial, sans-serif;
 }
 
 /* 2. Selector Class */
 .btn-daftar {
     background-color: #4CAF50;
     color: white;
-    padding: 8px 15px;
+    padding: 8 px 15 px;
     border: none;
     cursor: pointer;
 }
@@ -50,7 +55,7 @@ input[type="password"] {
 .btn-reset {
     background-color: #f44336;
     color: white;
-    padding: 8px 15px;
+    padding: 8 px 15 px;
     border: none;
     cursor: pointer;
 }
