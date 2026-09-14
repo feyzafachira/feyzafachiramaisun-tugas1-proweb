@@ -1,26 +1,24 @@
+/* 1. Selector HTML (Dasar) */
 body {
-    background-color: #f2f2f2;
+    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
-    margin: 40px;
+    margin: 30px;
 }
 
 form {
-    background-color: #ffffff;
+    background-color: white;
     padding: 20px;
-    border-radius: 8px;
     width: 450px;
 }
 
 fieldset {
     margin-bottom: 15px;
     padding: 15px;
-    border: 1px solid #ccc;
 }
 
 legend {
     font-weight: bold;
-    color: #333333;
-    padding: 0 5px;
+    color: #333;
 }
 
 table {
@@ -28,26 +26,21 @@ table {
 }
 
 td {
-    padding: 5px 0;
+    padding: 5px;
 }
 
 input[type="text"],
 input[type="password"],
 select,
 textarea {
-    width: 100%;
-    padding: 6px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-family: Arial, sans-serif;
+    width: 200px;
 }
 
-/* 2. Selector Class */
+/* 2. Selector Class (Sesuai Materi) */
 .btn-daftar {
     background-color: #4CAF50;
     color: white;
-    padding: 8px 15px;
+    padding: 6px 12px;
     border: none;
     cursor: pointer;
 }
@@ -55,7 +48,7 @@ textarea {
 .btn-reset {
     background-color: #f44336;
     color: white;
-    padding: 8px 15px;
+    padding: 6px 12px;
     border: none;
     cursor: pointer;
 }
