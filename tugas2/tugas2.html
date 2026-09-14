@@ -9,7 +9,7 @@
 
     <form action="" method="POST">
         <!-- Bagian Akun -->
-        <fieldset style="width: 400px;">
+        <fieldset style="width: 400 px;">
             <legend>Akun</legend>
 
             <table> 
@@ -34,7 +34,7 @@
         <br>
 
         <!-- Bagian Data -->
-        <fieldset style="width: 400px;">
+        <fieldset style="width: 400 px;">
             <legend>Data</legend>
 
             <table>
@@ -72,6 +72,23 @@
                     <td>
                         <input type="checkbox" id="kesehatan" name="hobi[]" value="Kesehatan">
                         <label for="kesehatan">Kesehatan</label>
+                    </td>
+               <tr>
+                    <td><label for="kota">Kota Domisili</label></td>
+                    <td>:</td>
+                    <td>
+                        <select id="kota" name="kota">
+                            <option value="Medan">Medan</option>
+                            <option value="Jakarta">Jakarta</option>
+                            <option value="Bandung">Bandung</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat</label></td>
+                    <td>:</td>
+                    <td>
+                        <textarea id="alamat" name="alamat" rows="3" cols="25"></textarea>
                     </td>
                 </tr>
             </table>
