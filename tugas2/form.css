@@ -1,26 +1,26 @@
 body {
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
-    margin: 40 px;
+    margin: 40px;
 }
 
 form {
     background-color: #ffffff;
-    padding: 20 px;
-    border-radius: 8 px;
-    width: 450 px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 450px;
 }
 
 fieldset {
-    margin-bottom: 15 px;
-    padding: 15 px;
-    border: 1 px solid #ccc;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
 }
 
 legend {
     font-weight: bold;
     color: #333333;
-    padding: 0 5 px;
+    padding: 0 5px;
 }
 
 table {
@@ -28,7 +28,7 @@ table {
 }
 
 td {
-    padding: 5 px 0;
+    padding: 5px 0;
 }
 
 input[type="text"],
@@ -36,10 +36,10 @@ input[type="password"],
 select,
 textarea {
     width: 100%;
-    padding: 6 px;
+    padding: 6px;
     box-sizing: border-box;
-    border: 1 px solid #ccc;
-    border-radius: 4 px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     font-family: Arial, sans-serif;
 }
 
@@ -47,7 +47,7 @@ textarea {
 .btn-daftar {
     background-color: #4CAF50;
     color: white;
-    padding: 8 px 15 px;
+    padding: 8px 15px;
     border: none;
     cursor: pointer;
 }
@@ -55,7 +55,7 @@ textarea {
 .btn-reset {
     background-color: #f44336;
     color: white;
-    padding: 8 px 15 px;
+    padding: 8px 15px;
     border: none;
     cursor: pointer;
 }
