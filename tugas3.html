@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS JAVASCRIPT</title>
+</head>
+<body>
+
+<form name="formkalkulator">
+<table>
+    <tr>
+        <td>Input Bilangan 1</td>
+        <td>:</td>
+        <td><input type="text" name="bil1" size="30" id="bil1" value="9" /></td>
+    </tr>
+    <tr>
+        <td>Input Bilangan 2</td>
+        <td>:</td>
+        <td><input type="text" name="bil2" size="30" id="bil2" value="3" /></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>
+            <button type="button" onclick="tambah()">+</button>
+            <button type="button" onclick="kurang()">-</button>
+            <button type="button" onclick="kali()">x</button>
+            <button type="button" onclick="bagi()">/</button>
+        </td>
+    </tr>
+    <tr>
+        <td>Output</td>
+        <td>:</td>
+        <td><input type="text" name="hasil" size="30" id="hasil" /></td>
+    </tr>
+</table>
+</form>
+
+<script>
+function tambah() {
+    let b1 = Number(document.formkalkulator.bil1.value);
+    let b2 = Number(document.formkalkulator.bil2.value);
+    document.formkalkulator.hasil.value = b1 + b2;
+}
+
+function kurang() {
+    let b1 = Number(document.formkalkulator.bil1.value);
+    let b2 = Number(document.formkalkulator.bil2.value);
+    document.formkalkulator.hasil.value = b1 - b2;
+}
+
+function kali() {
+    let b1 = Number(document.formkalkulator.bil1.value);
+    let b2 = Number(document.formkalkulator.bil2.value);
+    document.formkalkulator.hasil.value = b1 * b2;
+}
+
+function bagi() {
+    let b1 = Number(document.formkalkulator.bil1.value);
+    let b2 = Number(document.formkalkulator.bil2.value);
+    document.formkalkulator.hasil.value = b1 / b2;
+}
+</script>
+
+</body>
+</html>
