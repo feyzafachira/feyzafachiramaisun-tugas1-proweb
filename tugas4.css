@@ -1,0 +1,8 @@
+@media only screen and (max-width: 758px) {
+  .btn-outline-success {
+    display: block;      /* Membuat tombol menjadi satu baris penuh */
+    width: 100%;         /* Melebarkan tombol sesuai layar HP */
+    margin-top: 10px;    /* Memberi jarak antar tombol */
+    margin-left: 0 !important;
+  }
+}
